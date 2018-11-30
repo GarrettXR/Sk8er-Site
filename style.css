@@ -3,72 +3,163 @@ html {box-sizing:border-box;
 *,* :after, *:before {box-sizing:inherit;
 }
 body{
-	background:url(images/bg.jpg);
+	background: url(images/bg.jpg);
 	background-size: cover;
+	background-repeat: none;
 	z-index: 0;	
+	height: 100%;
+	width: 100%;
 }
-.container{
+.container1{
 	display: flex;
 	flex-direction: column;
 	width:1000px;
 	margin:auto;
-	background: green;
+	background: transparent;
+	text-transform: uppercase;
 }
 #background2{
-	background:url(images/top-image.png);
+	background: url(images/grid.png), url(images/top-image.png);
 	background-size: cover;
-	background-position: 0px -10px;
+	background:;
+	background-position: 0px -20px;
 	z-index: 1;
-	height: 350px;
+	height: 300px;
 	width: 100%;
 	border: 2px solid white;
 }
 .peralta{
 	position: absolute;
-	margin-top: 
+	margin-top: 40px;
+	margin-left: 25px;
 }
 ul{
 	display: flex;
 	list-style: none;
 }
 li{
-	margin: 5px;
-	font-size: 40px;
+	font-size: 60px;
+	margin: 7.5px;
 }
 .tabs{
-	height: 30px;
-	width: 200px;
+	height: 40px;
+	width: 300px;
 	background: rgb(186,54,52);
 	border-bottom: 2px solid rgba(255,255,255,.5);
 	font-size: 20px;
-	display: flex;
-	text-align: center;
-	margin: 10px;
+	line-height: 40px;
 	color: white;
-
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 #icons1{
 	float:right;
 	margin-right: 2px;
 }
-.Tab{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
 .subscribe{
 	margin-left: 625px;
-	margin-right: 40px;
+	margin-right: 100px;
 	color: white;
-	font-size: 30px;
-	padding-top: 10px;
-}
-.topbar{
+	font-size: 20px;
+	margin-top: 30px;
 	display: flex;
 }
-.fab.fa-facebook{
-	border-left: 2px dotted white
+#fb1{
+	color: white;
+	opacity: .5;
+	font-size: 40px;
+	padding-top: 5px;
+	margin-right: 10px;
+	height: 52px;
+	width: 55px;
+	background-color: rgb(71,89,147);
+	text-align: center;
+	position: 20px;
+	border-radius: 5%;
 }
-i{
-	border-bottom: 2px solid rgba(255,255,255,.5);
+#rss1{
+	color: rgb(196,145,69);
+}
+#twitter1{
+	color: rgb(112,141,194);
+}
+#yt1{
+	color: rgb(165,65,52);
+}
+.bull{
+	margin-top: 0px;
+	margin-left: 8px;
+}
+.topbar{
+	height: 100px;
+}
+.Tab{
+	margin-left: 3px;
+	padding-left: 3px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.box{
+	height: 300px;
+	width: 325px;
+	background: white;
+	padding: 10px;
+}
+.boxes{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 30px;
+	text-align: left;
+}
+h3{
+	opacity: .5;
+}
+.sk8ers{
+	overflow: auto;
+	width: 100%;
+}
+.lmtn{
+	background-image: url(images/sk8er-4.png);
+	background-position: ;
+	margin-right: 5px;
+}
+.rodm{
+	background-image: url(images/sk8er-3.png); 
+	background-position: ;
+	margin-right: 5px;
+}
+.scab{
+	background-image: url(images/sk8er-1.png);
+	background-position: ;
+	margin-top: 5px;
+}
+.tomg{
+	background-image: url(images/sk8er-2.png);
+	background-position: ;
+	margin-left: 5px;
+}
+section{
+	height: 250px;
+	width: 330px;
+	border: 2px solid white;
+	float: left;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 67.5px
+
+}
+section:nth-child(3){
+	width: 665px;
+	padding-top: 100px;
+}
+section:nth-child(4){
+	height: 505px;
+	margin-top: -250px;
+	padding-top: 200px;
 }
