@@ -1,0 +1,74 @@
+html {box-sizing:border-box;
+}
+*,* :after, *:before {box-sizing:inherit;
+}
+body{
+	background:url(images/bg.jpg);
+	background-size: cover;
+	z-index: 0;	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	width:1000px;
+	margin:auto;
+	background: green;
+}
+#background2{
+	background:url(images/top-image.png);
+	background-size: cover;
+	background-position: 0px -10px;
+	z-index: 1;
+	height: 350px;
+	width: 100%;
+	border: 2px solid white;
+}
+.peralta{
+	position: absolute;
+	margin-top: 
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+li{
+	margin: 5px;
+	font-size: 40px;
+}
+.tabs{
+	height: 30px;
+	width: 200px;
+	background: rgb(186,54,52);
+	border-bottom: 2px solid rgba(255,255,255,.5);
+	font-size: 20px;
+	display: flex;
+	text-align: center;
+	margin: 10px;
+	color: white;
+
+}
+#icons1{
+	float:right;
+	margin-right: 2px;
+}
+.Tab{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.subscribe{
+	margin-left: 625px;
+	margin-right: 40px;
+	color: white;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.topbar{
+	display: flex;
+}
+.fab.fa-facebook{
+	border-left: 2px dotted white
+}
+i{
+	border-bottom: 2px solid rgba(255,255,255,.5);
+}
